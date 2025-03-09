@@ -261,20 +261,20 @@ console.log(chopShop.calcTotalPrice("Ruby"));
 // функція має опрацьовувати об'єкт автомобіля як this
 
 
-const MAX_SPEED = 60;
+// const MAX_SPEED = 60;
 
-const audi = {
-    brand: "audi",
-    speed: 30
- }
+// const audi = {
+//     brand: "audi",
+//     speed: 30
+//  }
 
-const bmw = {
-    brand: "bmw",
-    speed: 70
- }
-function speedSensor(maxSpeed) {
-    if (this.speed <= maxSpeed)
-}
+// const bmw = {
+//     brand: "bmw",
+//     speed: 70
+//  }
+// function speedSensor(maxSpeed) {
+//     if (this.speed <= maxSpeed)
+// }
 
 
 
