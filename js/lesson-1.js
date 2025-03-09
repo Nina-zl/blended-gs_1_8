@@ -16,11 +16,13 @@
 // } else {
 //     alert('Невірно');
 // }
+
 // 2 var
 // number === 10 ? alert('Вірно') : alert('Невірно');
 
 // 3 var
 // alert(number === 10 ? 'Вірно' : 'Невірно');
+
 
 // У змінній min лежить випадкове число від 0 до 59.
 // Визначте, в яку чверть години потрапляє
@@ -34,7 +36,7 @@
 //  } else if (min <= 30) {
 //  alert(${min) Ваше число входить в 2 чверть);
 //  } else if (min <= 45) {
-//  alert($(min) Ваше число входить в 2 чверть");
+//  alert($(min) Ваше число входить в 3 чверть");
 //  } else {
 //  alert($(min) Ваше число входить в 4 чверть);
 
@@ -164,15 +166,15 @@
 // Окрім цього, підрахуйте суму всіх парних чисел в цьому циклі
 // і поверніть її з функції.
 
-    function getNumbers(min, max) {
-        let sum = 0;
-        for (let i = max; i >= min; i--) {
-            console.log(i);
-            if (i % 2 === 0) {
-                sum += i;
-            }
-        }
-        return sum;
-    }
-console.log(getNumbers(28, 13));
+//     function getNumbers(min, max) {
+//         let sum = 0;
+//         for (let i = max; i >= min; i--) {
+//             console.log(i);
+//             if (i % 2 === 0) {
+//                 sum += i;
+//             }
+//         }
+//         return sum;
+//     }
+// console.log(getNumbers(28, 13));
     
