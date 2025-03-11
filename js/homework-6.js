@@ -376,7 +376,27 @@ console.log(chopShop.calcTotalPrice("Ruby"));
 // console.log(alice);
 
 
+// ------------------------------------------------
 
+// 6.2 Класи
+
+class Car {
+constructor(brend, model) {
+    this.brend = brend;
+    this.model = model;
+
+}
+
+getModel() {
+    return this.model;
+
+}
+}
+const audi = new Car("audi", "q7");
+console.log(audi.getModel());
+
+// const bmw = new Car("bmw", "x");
+// console.log(bmw);
 
 
 // ------------------------------------------------- 4
