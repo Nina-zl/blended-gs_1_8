@@ -30,12 +30,12 @@ for (const key of keys) {  // for of зчитати масив і перебра
 salaries пуст, то результат должен быть 0. 
  */
  
-const salaries = { 
-John: 100, 
-Ann: 160, 
-Pete: 130, 
-}; 
- const salaries1 = {};
+// const salaries = { 
+// John: 100, 
+// Ann: 160, 
+// Pete: 130, 
+// }; 
+//  const salaries1 = {};
 
 // 1) Робимо ф - ю де параметром є обєкт
 // 2) Потрібно просумувати значення обєкта
